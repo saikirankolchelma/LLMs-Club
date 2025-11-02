@@ -16,24 +16,24 @@ We dive deep into **model architectures, fine-tuning techniques, evaluation stra
 
 ### 🧩 Core Topics Covered
 
-- **LLMs (Large Language Models):**
-  - LLaMA, Falcon, Mistral, Gemma, GPT-2/3, etc.
-- **SLMs (Small Language Models):**
-  - Phi-3, TinyLLaMA, DistilBERT, MiniLM, etc.
-- **Fine-Tuning Techniques:**
-  - LoRA / QLoRA  
-  - PEFT (Parameter Efficient Fine-Tuning)  
-  - Prefix / Prompt / Adapter Tuning  
-  - Instruction and Domain-specific Fine-Tuning
-- **Multi-Modal & Multi-Model Systems:**
-  - Text → Text  
-  - Text → Speech (TTS)  
-  - Speech → Text (ASR)  
-  - Image → Text (Vision + LLMs)
-- **Deployment & Inference:**
-  - FastAPI, Streamlit, Docker  
-  - Quantization & Optimization  
-  - Model Serving (TorchServe, TensorRT, etc.)
+    - **LLMs (Large Language Models):**
+      - LLaMA, Falcon, Mistral, Gemma, GPT-2/3, etc.
+    - **SLMs (Small Language Models):**
+      - Phi-3, TinyLLaMA, DistilBERT, MiniLM, etc.
+    - **Fine-Tuning Techniques:**
+      - LoRA / QLoRA    
+      - PEFT (Parameter Efficient Fine-Tuning)  
+      - Prefix / Prompt / Adapter Tuning  
+      - Instruction and Domain-specific Fine-Tuning
+    - **Multi-Modal & Multi-Model Systems:**
+      - Text → Text  
+      - Text → Speech (TTS)  
+      - Speech → Text (ASR)  
+      - Image → Text (Vision + LLMs)
+    - **Deployment & Inference:**
+      - FastAPI, Streamlit, Docker  
+      - Quantization & Optimization  
+      - Model Serving (TorchServe, TensorRT, etc.)
 
 ---
 
