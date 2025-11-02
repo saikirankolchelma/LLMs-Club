@@ -1,204 +1,94 @@
+---
+
 # 🧠 LLM Club
 
-> **Explore, Fine-Tune, and Deploy Open-Source Language Models with Hands-On Practical Implementations**
+> Explore, fine-tune, and deploy open-source language models with hands-on, production-oriented examples.
 
 ---
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+<!-- Primary status badges -->
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-Transformers-orange?logo=huggingface&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.13-red?logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Production-ready-green?logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Apps-brightgreen?logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containers-blue?logo=docker&logoColor=white)
+![GPU: NVIDIA](https://img.shields.io/badge/NVIDIA-CUDA-568203?logo=nvidia&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
 ## 📚 Table of Contents
-- [🚀 About](#-about)
-- [🔍 What You’ll Learn](#-what-youll-learn)
-- [🧠 Hands-On Implementations](#-hands-on-implementations)
-- [⚙️ Setup Instructions](#️-setup-instructions)
-- [🧪 Planned Experiments](#-planned-experiments)
-- [🤝 Collaboration & Contributions](#-collaboration--contributions)
-- [🌐 Join the Club](#-join-the-club)
-- [🧭 Future Roadmap](#-future-roadmap)
-- [🏁 License](#-license)
+- [About](#about)
+- [Tech Stack (Logos & Tools)](#tech-stack-logos--tools)
+- [Planned Experiments](#-planned-experiments)
+- [Quick Demo](#-quick-demo)
+- [Collaboration & Contributions](#-collaboration--contributions)
+- [Join the Club](#-join-the-club)
+- [Future Roadmap](#-future-roadmap)
+- [License](#-license)
 
 ---
 
-## 🚀 About
+## About
 
-**LLM Club** is a community-driven open-source initiative to help learners and developers **understand, fine-tune, and experiment with Large & Small Language Models (LLMs & SLMs)** through practical, real-world examples.
-
-We dive deep into **model architectures, fine-tuning techniques, evaluation strategies, and deployment workflows** — all demonstrated through easy-to-follow notebooks and hands-on projects.
+**LLM Club** is a professional, community-driven repository aimed at engineers, researchers, and practitioners who want strong, repeatable, engineering-quality examples for fine-tuning, evaluating, and deploying open-source LLMs and SLMs. The repo emphasizes reproducibility, benchmarking, and deployment best practices.
 
 ---
 
-## 🔍 What You’ll Learn
+## Tech Stack — Logos & Tools
 
-### 🧩 Core Topics Covered
+**Languages & Runtimes**
 
-- **LLMs (Large Language Models):**
-  - [LLaMA](https://github.com/facebookresearch/llama), [Falcon](https://falconllm.tii.ae/), [Mistral](https://mistral.ai/), [Gemma](https://ai.google.dev/gemma), [GPT-2](https://huggingface.co/openai/gpt2), GPT-3, etc.
-- **SLMs (Small Language Models):**
-  - [Phi-3](https://huggingface.co/microsoft/phi-3), [TinyLLaMA](https://huggingface.co/TinyLLaMA), [DistilBERT](https://huggingface.co/distilbert-base-uncased), [MiniLM](https://huggingface.co/microsoft/MiniLM-L12-H384-uncased), etc.
-- **Fine-Tuning Techniques:**
-  - LoRA / QLoRA  
-  - PEFT (Parameter Efficient Fine-Tuning)  
-  - Prefix / Prompt / Adapter Tuning  
-  - Instruction & Domain-Specific Fine-Tuning
-- **Multi-Modal & Multi-Model Systems:**
-  - Text → Text  
-  - Text → Speech (TTS)  
-  - Speech → Text (ASR)  
-  - Image → Text (Vision + LLMs)
-- **Deployment & Inference:**
-  - FastAPI, Streamlit, Docker  
-  - Quantization & Optimization  
-  - Model Serving (TorchServe, TensorRT, etc.)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Shell-Bash-black?logo=gnubash&logoColor=white)
 
----
+**Modeling & Libraries**
 
-## 🧠 Hands-On Implementations
+![Hugging Face](https://img.shields.io/badge/HuggingFace-Transformers-orange?logo=huggingface&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.13-red?logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-HF-ff69b4?logo=apache&logoColor=white)
 
-Each topic includes:
-- ✅ Detailed Jupyter notebooks  
-- ✅ Dataset preprocessing & setup  
-- ✅ Model training and fine-tuning scripts  
-- ✅ Evaluation and inference testing  
-- ✅ Deployment-ready examples  
+**Serving & Web**
 
-### 💡 Example Projects
-- 🤖 Domain-Specific Chatbot (Fine-Tuned Mistral)  
-- 🗣️ Text-to-Speech Conversational Assistant  
-- 📄 Research Paper Summarizer  
-- 🔊 Whisper + LLM Voice Assistant  
-- 💬 Instruction-Tuned Q&A System  
+![FastAPI](https://img.shields.io/badge/FastAPI-Production-ready-green?logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Apps-brightgreen?logo=streamlit&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containers-blue?logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI/CD-GHActions-2088FF?logo=githubactions&logoColor=white)
 
----
+**Optimization & Inference**
 
-## ⚙️ Setup Instructions
+![ONNX](https://img.shields.io/badge/ONNX-Export-cyan?logo=onnx&logoColor=white)
+![TensorRT](https://img.shields.io/badge/TensorRT-Inference-7b8cb8)
+![Quantization](https://img.shields.io/badge/Quantization-INT8-lightgrey)
 
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/LLM-Club.git
-cd LLM-Club
+**Orchestration & Agents**
 
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # For Linux/Mac
-venv\Scripts\activate     # For Windows
+![LangChain](https://img.shields.io/badge/LangChain-Agents-lightgrey)
+![Ray](https://img.shields.io/badge/Ray-Distributed-orange)
 
-# Install dependencies
-pip install -r requirements.txt
+**Model Types & Representative LLMs / SLMs**
 
+- **LLMs:** LLaMA, Mistral, Falcon, Gemma, GPT-2/3, GPT-based models.  
+  ![LLaMA](https://img.shields.io/badge/LLaMA-LLM-lightgrey) ![Mistral](https://img.shields.io/badge/Mistral-LLM-lightgrey) ![Falcon](https://img.shields.io/badge/Falcon-LLM-lightgrey)
+- **SLMs / Distilled & Small:** Phi-3, TinyLLaMA, DistilBERT, MiniLM.  
+  ![Phi-3](https://img.shields.io/badge/Phi--3-SLM-lightgrey) ![DistilBERT](https://img.shields.io/badge/DistilBERT-Small-lightgrey)
 
+**Fine-Tuning & Techniques**
 
+- LoRA / QLoRA — Parameter-efficient adapters.  
+  ![LoRA](https://img.shields.io/badge/LoRA-Adapters-lightgrey) ![QLoRA](https://img.shields.io/badge/QLoRA-Quantized-lightgrey)
+- PEFT — Hugging Face Parameter-Efficient Fine-Tuning.  
+  ![PEFT](https://img.shields.io/badge/PEFT-HF-lightgrey)
 
+> **Note:** Shields badges above are used for readability and brand association. For official logos and higher-resolution assets, host images in `/assets/logos/` (recommended) and reference them via relative paths for consistent rendering.
 
----
+### Hosting logos locally (recommended for production README)
+Place high-resolution SVG/PNG logos in `/assets/logos/` and reference them:
 
-## 🧪 Planned Experiments
-
-- 🔹 Compare **LoRA vs QLoRA** performance  
-- 🔹 Evaluate **SLM vs LLM** accuracy trade-offs  
-- 🔹 **Multi-Turn Chatbot Fine-Tuning**  
-- 🔹 **Multi-Modal Integration (Voice + Vision)**  
-- 🔹 Lightweight **Edge/Local Deployment**
-
----
-
-## 🧩 Quick Demo
-
-Here’s a simple example using **Mistral-7B** via Hugging Face Transformers:
-
-```python
-from transformers import AutoModelForCausalLM, AutoTokenizer
-
-model_name = "mistralai/Mistral-7B-Instruct"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(model_name)
-
-prompt = "Explain LoRA fine-tuning in simple terms."
-input_ids = tokenizer(prompt, return_tensors="pt")
-output = model.generate(**input_ids, max_length=100)
-print(tokenizer.decode(output[0], skip_special_tokens=True))
-
-
-
-
-
-
-🤝 Collaboration & Contributions
-We’re building LLM Club as an open collaborative space for AI learners, developers, and researchers.
-If you’d like to contribute:
-
-
-Fork the repo
-
-
-Create a branch: feature/fine-tuning-xyz
-
-
-Commit your changes
-
-
-Open a Pull Request
-
-
-💬 You can also open Issues to suggest experiments or report bugs.
-🌟 All contributors will be listed in the Contributors section.
-
-🌐 Join the Club
-The LLM Club is more than a repository — it’s a growing community of builders experimenting with open-source AI.
-If you love:
-
-
-Fine-tuning models
-
-
-Exploring multi-modal AI
-
-
-Deploying intelligent systems
-
-
-Sharing research and ideas
-
-
-Then this club is for you ❤️
-📩 Reach out: ksaikiran129@gmail.com
-
-🧭 Future Roadmap
-
-
-🧩 Add fine-tuning guides for more open models
-
-
-⚡ Include lightweight SLM deployment notebooks
-
-
-📊 Add GPU/TPU benchmarking results
-
-
-🧠 Integrate agent-based orchestration (LangChain, MCP)
-
-
-🏆 Build a model leaderboard for comparison
-
-
-
-🏁 License
-This project is released under the MIT License — free to use, modify, and share with credit.
-
-
-🌟 Join the movement — learn, fine-tune, and build the future of open-source AI with the LLM Club!
-
-
----
-
-✅ This will render perfectly on GitHub — with:
-- clean section spacing,  
-- consistent heading levels,  
-- proper code formatting,  
-- and clear contributor instructions.
-
-
+```markdown
+<!-- Example local logo usage -->
+<img src="/assets/logos/fastapi.svg" alt="FastAPI" width="120" />
+<img src="/assets/logos/huggingface.svg" alt="Hugging Face" width="120" />
