@@ -53,24 +53,6 @@ Each topic includes:
 - 🔊 Whisper + LLM Voice Assistant  
 - 💬 Instruction-tuned Q&A System  
 
----
-
-LLM-Club/
-│
-├── notebooks/ # Jupyter notebooks for experiments
-│ ├── fine_tuning/ # Fine-tuning scripts
-│ ├── inference/ # Evaluation and testing
-│ ├── deployment/ # FastAPI / Streamlit examples
-│ └── multi_modal/ # Speech, image, and text integrations
-│
-├── data/ # Datasets or sample inputs
-├── models/ # Saved or fine-tuned models
-├── utils/ # Helper functions and scripts
-├── requirements.txt # Dependencies
-└── README.md # This file
-
-
----
 
 ## ⚙️ Setup Instructions
 
@@ -142,7 +124,7 @@ Sharing research and ideas
 Then this club is for you. ❤️
 
 📩 Interested in collaboration or partnership?
-Reach out via: mr.techscholar@gmail.com
+Reach out via: ksaikiran129@gmail.com
 
 🧭 Future Roadmap
 
