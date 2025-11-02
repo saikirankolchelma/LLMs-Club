@@ -71,12 +71,6 @@ pip install -r requirements.txt
 
 You can also run notebooks directly in Google Colab — just upload them and follow the steps!
 
-🧩 Open-Source Models Used
-Category	Models	Description
-LLMs	LLaMA, Falcon, Mistral, Gemma, GPT-2	Open-source and research-level models
-SLMs	Phi-3, TinyLLaMA, DistilBERT	Lightweight, efficient small models
-Speech	Whisper, Bark, TTS	Speech-to-text and text-to-speech
-Multi-Modal	CLIP, BLIP-2, LLaVA	Vision + Text understanding
 🧪 Planned Experiments
 
 🔹 Compare LoRA vs QLoRA performance
@@ -142,5 +136,5 @@ Reach out via: ksaikiran129@gmail.com
 
 This project is released under the MIT License — free to use, modify, and share with credit.
 
-## 🗂️ Repository Structure
+
 
